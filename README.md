@@ -3,6 +3,13 @@
 
 | number | problem | 
 |:------:|:------:|
+|   27    |   Save the Prisoner    |
+|   26    |   Strong Passwords    |
+|   25    |   Extra Long Factorials    |
+|   24    |   Lisa's WorkBook    |
+|   23    |   Strange Counter    |
+|   22    |   Angry Professor    |
+|   21    |   Minimum Distances    |
 |   20    |   Append and Delete    |
 |   19    |    Picking Numbers    |
 |   18    |   The Power Sum   |
