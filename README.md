@@ -1,8 +1,8 @@
 # hackerrank_algorithms
 ### https://www.hackerrank.com/
 
-| number | problem | number | problem | 
-|:------:|:------:|:------:|:------:|
+| number | problem | number | problem | number | problem | 
+|:------:|:------:|:------:|:------:|:------:|:------:|
 |   30   |   The Time in Words         |   60    |   Happy Ladybugs              |   90    |   ...                         |
 |   29   |   Encryption                |   59    |   Equalize The Array          |   89    |   ...                         |
 |   28   |   Weighted Uniform Strings  |   58    |   Count Luck                  |   88    |   ...                         |
