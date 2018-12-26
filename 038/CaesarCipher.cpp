@@ -7,6 +7,7 @@ string caesarCipher(string s, int k) {
 
     std::string::iterator it = s.begin();
     string result;
+    k = k % 26;
     while( it != s.end() )
     {
         if ( 'A' <= *it && *it <= 'Z' )
@@ -17,7 +18,7 @@ string caesarCipher(string s, int k) {
             }
             else
             {
-                result.push_back( *it + k - 'Z' ); 
+                result.push_back( *it + k - 'Z' + 'A' - 1 ); 
             }
         }
         else if( 'a' <= *it && *it <= 'z' )
@@ -28,7 +29,7 @@ string caesarCipher(string s, int k) {
             }
             else
             {
-                result.push_back( *it + k - 'z' ); 
+                result.push_back( *it + k - 'z' + 'a' - 1 ); 
             }
         }
         else
