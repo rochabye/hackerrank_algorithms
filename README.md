@@ -3,8 +3,10 @@
 
 | Number | Problem | Difficulty | Language |
 |:------:|:------:|:------:|:------:|
+| 39-2  |  Minimum Loss               | medium |   |
+| 39-1  |Correctness and the Loop Invariant|  easy  |  JAVA  |
 | 38-2  |  Caesar Cipher              |  easy  |  C++  |
-| 38-1  |  Journey to the Moon        | medium |  C++  |
+| 38-1  |  Journey to the Moon        | medium |  JAVA  |
 | 37-1  |  Pairs                      | medium |  C++  |
 | 36-2  |  Connected Cells In A Grid  | medium |  C++  |
 | 36-1  |  Super Reduced String       |  easy  |  C++  |
