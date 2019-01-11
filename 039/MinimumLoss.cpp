@@ -7,19 +7,23 @@ vector<string> split_string(string);
 // Complete the minimumLoss function below.
 int minimumLoss(vector<long> price) {
 
-    long min = 987654321;
+    map< int, long > price_map;
     for( int i = 0; i < price.size(); ++i )
     {
-        for( int j = i + 1 ; j < price.size(); ++j )
+        price_map.insert( make_pair( price[i], i ) );
+    }
+    sort( price.begin(), price.end() );
+
+    long min = 987654321;
+    for( int i = price.size() - 1; i > 0; --i )
+    {
+        if ( min > ( price[ i ] - price[ i - 1 ] ) &&
+        price_map[ price[i] ] < price_map[ price[ i - 1 ] ] )
         {
-            long temp = price[ i ] - price[ j ];
-            if ( temp < min && temp > 0  )
-            {
-                min = temp;
-            }
+            min = price[ i ] - price[ i - 1 ];
         }
     }
-    return min; 
+    return min;
 }
 
 int main()
