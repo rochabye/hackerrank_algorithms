@@ -3,6 +3,11 @@
 
 | Number | Problem | Difficulty | Language |
 |:------:|:------:|:------:|:------:|
+| 42-3  |  Greedy florist             | medium |   |
+| 42-2  |  Mars exploration           | easy   | JAVA  |
+| 42-1  |  Snakes and ladders         | medium | C++   |
+| 41-2  |  Bear and steady gene       | medium | JAVA |
+| 41-1  |Minimum absolue difference in an array| easy |  JAVA  |
 | 40-2  |  Closest Numbers            | easy   | C++   |
 | 40-1  |  Clique                     | medium |       |
 | 39-2  |  Minimum Loss               | medium | C++   |
