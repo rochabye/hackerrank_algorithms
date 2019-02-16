@@ -23,7 +23,6 @@ string gridSearch(vector<string> G, vector<string> P) {
         ssize_t pos;
         if( ( pos = G[i].find( P[0] ) ) != std::string::npos ) {
             y = i, x = pos;
-         
             if ( IsValidGrid ( x, y, G, P ) ) {
                 corrected = true;
                 break;
