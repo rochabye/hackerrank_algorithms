@@ -3,7 +3,13 @@
 
 | Number | Problem | Difficulty | Language |
 |:------:|:------:|:------:|:------:|
-| 42-3  |  Greedy florist             | medium |   |
+| 46-1  |  Grid Challenge             | easy  |   |
+| 45-2  |  Missing Numbers            | easy  |   |
+| 45-1  |  The Grid Search            | medium |  C++ |
+| 44-2  |  Prime Dates                | medium | JAVA  |
+| 44-1  |  Two Strings                | easy   |  JAVA |
+| 43-2  |  Largest permutation        | easy   |   |
+| 43-1  |  Greedy florist             | medium |   |
 | 42-2  |  Mars exploration           | easy   | JAVA  |
 | 42-1  |  Snakes and ladders         | medium | C++   |
 | 41-2  |  Bear and steady gene       | medium | JAVA |
